@@ -5,6 +5,7 @@ This folder contains Vagrant code to stand up a single Rancher server instance w
 ## Requirements
 
 - [Vagrant](https://www.vagrantup.com)
+    - run `vagrant plugin install vagrant-vboxmanage` and `vagrant plugin install vagrant-vbguest` install plugins to create VirtualBox VMs.
 - [VirtualBox](https://www.virtualbox.org)
 - 6GB unused RAM
 
